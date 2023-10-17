@@ -1,5 +1,5 @@
 """
-ConneX MQTT Client sample application.
+ConneX MQTT Client sample code.
 
 ConneXMqttClient [-h] [-i IPHOST] [-p PORT]
 
