@@ -119,6 +119,11 @@ def parseArguments():
 def main():
     # Get host and port values to use for connecting to ConneX MQTT Broker
     host, port = parseArguments()
+    
+    # Add log start header, useful when several logs are appended to the same file
+    logger.info("----------------------------------------------------------------------")
+    logger.info("-------------------------- Starting new log --------------------------")
+    logger.info("----------------------------------------------------------------------")
 
     # Initialize MQTT client, generate random id
     client = mqtt.Client(client_id=f'connex-mqtt-{random.randint(0, 1000)}')

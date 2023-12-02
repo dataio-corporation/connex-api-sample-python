@@ -12,13 +12,14 @@ The purpose of these examples is to help developers to integrate solutions with 
 
 ### GraphQL Examples
 
-TODO
+- **ConneXGraphQL**: GraphQL client that connects to ConneX GraphQL server and performs several queries.
 
 ## Usage
 
 The following requirements must be met to run the examples in this repository:
 
-1. ConneX 3.x installed, version 3.0.6 was used when testing.
+1. ConneX 3.x or greater installed, version 3.0.6 was used when testing.
 1. Python 3.6+ installed, version 3.11.3 was used.
 1. [paho.mqtt](https://pypi.org/project/paho-mqtt/) library installed, version 1.6.1 was used.
+1. [gql](https://pypi.org/project/gql/) library installed, version 3.4.1 was used. 
 1. The computer to run the examples should be able to communicate with the ConneX system through TCP/IP.
