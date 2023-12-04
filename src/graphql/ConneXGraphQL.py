@@ -1,5 +1,5 @@
 """
-ConneX GraphQL Client sample application.
+ConneX GraphQL Client sample code.
 
 This script allows the user to issue ConneX GraphQL queries.
 
