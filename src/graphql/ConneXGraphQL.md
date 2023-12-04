@@ -297,6 +297,6 @@ if __name__ == '__main__':
 
 To run the script all we need to do is to execute the `python` command from a command line window, passing the name of the script `ConneXGraphQL.py` as parameter. The output will be shown in the console.
 
- ![python ConneXGraphQL command.](/images/py_ConneXGraphQL_cmd.png)
+![python ConneXGraphQL command.](../graphql/images/py_ConneXGraphQL_cmd.png)
 
 The script file should be in the folder from where the `python` command is invoked.
