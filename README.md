@@ -8,11 +8,12 @@ The purpose of these examples is to help developers to integrate solutions with 
 ## Key Features
 
 ### MQTT Examples
-- **ConneXMqttClient**: Basic MQTT client that connects to ConneX MQTT Broker and monitors the subscribed event messages.
+- **[ConneXMqttClient](./src/mqtt/ConneXMqttClient.md)**: Basic MQTT client that connects to ConneX MQTT Broker and monitors the subscribed event messages.
+- **[ConneXMqttCmd](./src/mqtt/ConneXMqttCmd.md)**: Modification of ConneXMqttClient, adding examples of how to publish commands to ConneX.
 
 ### GraphQL Examples
 
-- **ConneXGraphQL**: GraphQL client that connects to ConneX GraphQL server and performs several queries.
+- **[ConneXGraphQL](./src/graphql/ConneXGraphQL.md)**: GraphQL client that connects to ConneX GraphQL server and performs several queries.
 
 ## Usage
 
