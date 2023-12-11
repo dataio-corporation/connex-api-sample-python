@@ -7,7 +7,7 @@ The script requires the following libraries installed in our environment:
 - [paho.mqtt](https://pypi.org/project/paho.mqtt/) (Eclipse Paho MQTT Python client)
 - [keyboard](https://pypi.org/project/keyboard/) (Hook and simulate global keyboard events on Windows and Linux)
 
-The basic functionality of the script is the same as the ConneXMqttClient script, code has been added to use shortcut keys to publish commands to ConneX MQTT Broker. The following sections describe the differences and additions to the script functionality.
+The basic functionality of the script is the same as the [ConneXMqttClient](../mqtt/ConneXMqttClient.md) script, code has been added to use shortcut keys to publish commands to ConneX MQTT Broker. The following sections describe the differences and additions to the script functionality.
 
 ## Logging
 
