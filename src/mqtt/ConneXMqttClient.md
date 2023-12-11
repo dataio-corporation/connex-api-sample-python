@@ -133,7 +133,7 @@ def on_disconnect(client, rc, properties):
     logger.info(f"Disconnected... client: {client._client_id.decode()}, return code: {rc}, properties: {properties}")
 ```
 
-## Main function
+## Main Function
 
 In the main function we initialize the MQTT client using the default (or parsed from arguments) connection settings and then we start an infinite loop to process all the messages that we subscribed to. In the client initialization we use a random id to make it possible that different executions of the script can coexist without conflicting each other.
 

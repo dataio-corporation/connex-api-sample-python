@@ -11,7 +11,7 @@ The basic functionality of the script is the same as the ConneXMqttClient script
 
 ## Logging
 
-Same as ConneXMqttClient, the only change is the name of the generated log file: "ConneXMqttCmd.log".
+Same as [ConneXMqttClient](../mqtt/ConneXMqttClient.md#logging), the only change is the name of the generated log file: "ConneXMqttCmd.log".
 
 ## Global Variables
 
@@ -32,7 +32,7 @@ keep_running = True
 
 ## On Connect Function
 
-Same as in ConneXMqttClient with the following changes:
+Same as in [ConneXMqttClient](../mqtt/ConneXMqttClient.md#on-connect-function) with the following changes:
 - We are subscribing to all topics, the other example subscriptions were removed.
 - Added use of the global variable `connected` to indicate that a connection was established. 
 
@@ -56,7 +56,7 @@ def on_connect(client, userdata, flags, rc):
 
 ## On Message Function
 
-Same as in ConneXMqttClient with the following changes:
+Same as in [ConneXMqttClient](../mqtt/ConneXMqttClient.md#on-message-function) with the following changes:
 - Added logic to parse the `xhsessionid` value from the `startup` topic and store it in the `sessionid` global variable. The value is the 4th level in the topic of the form: `xh700/startup/{hostname}/{xhsessionid}`
 
 ```python
@@ -138,7 +138,7 @@ def on_quit():
 
 ## Main Function
 
-Same as in ConneXMqttClient with the following changes:
+Same as in [ConneXMqttClient](../mqtt/ConneXMqttClient.md#main-function) with the following changes:
 - Set up callbacks for shortcut keys to process machine manager commands and automated handler commands.
 - Monitors the `connected` global to make sure the connection with the ConneX MQTT Broker is established before entering main loop.
 - Replaced `client.loop_forever()` call with calls to `client.loop_start()` and `client.loop_stop()` to enable terminating the script using a shortcut key.
